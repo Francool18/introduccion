@@ -9,15 +9,22 @@
 </ul>
     -->
     <?php
-        $agenda= ["Dentista a las 12h", "Dentista a las 15h" , "Dentista a las 08h" , "Dentista a las 18h"];
-
+        $agenda= ["Dentista a las 12h", "Gimnasio a las 15h" , "Trabajo a las 08h" , "Fiesta a las 18h"];
+        var_dump($agenda);
+        echo "<br>";
         $agenda[0]="Dentista a las 16h";
+        var_dump($agenda);
+        echo "<br>";
+        unset($agenda[0]); // la finción unset elimina un elemento del array
+        var_dump($agenda);
+
         ?>
         <ul>
         <?php
         foreach($agenda as $hora){
             echo "<li>$hora</li>";
         }
+        // Tanbajo echo por Francisco Montes de Oca y Jonathan Raymond
     ?>
     </ul>
     </body>
