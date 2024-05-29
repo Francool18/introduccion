@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+#cuento{
+    border: 3px solid black;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(12, 12, 90);
+}
+p{
+    text-align: center;
+}
