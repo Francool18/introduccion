@@ -7,12 +7,16 @@
 </head>
 <body>
     <?php
-$persona =[
-    "nombre" => "Gonzalo",
-    "apellido" => "García",
-    "edad" => 18
-];
-
+        $persona =[
+            "nombre" => "Juan",
+            "ciudad" => "Madrid",
+            "edad" => 25
+        ];
     ?>
+<table border="1">
+            <tr> <td>Nombre</td> <td><?php echo $persona["nombre"] ?></td> </tr>
+            <tr> <td>Edad</td> <td><?php echo $persona["edad"] ?></td> </tr>
+            <tr> <td>Ciudad</td> <td><?php echo $persona["ciudad"] ?></td> </tr>
+        </table>
 </body>
 </html>
